@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'land';
+            src: url('Enchanted\ Land.otf')format('opentype');
+            font-weight: lighter;
+            font-style: normal;
+            /*
+                Tipos de format()
+                -opentype (otf)
+                - truetype(ttf)
+                -embedded-opentype()
+                -truetype-aat(Apple advanced typography)
+                -svg
+                */
+        }
+        body{
+            font-family: 'land', Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+        }
+        h1{
+            font-family: 'land', 'Times New Roman', Times, serif;
+            font-size: 3em;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes externas</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos ducimus modi odit animi deserunt, sint, incidunt in nisi dolorem voluptatibus ex distinctio quas repellat totam? Tempore corporis sapiente voluptates sunt?</p>
+</body>
+</html>

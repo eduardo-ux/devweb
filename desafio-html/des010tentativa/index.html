@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 10</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300&display=swap'); /*fonte PHUDU*/
+    @import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300&family=Press+Start+2P&display=swap'); /*fonte Press Start 2P*/
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body{
+        background-color: rgb(167, 233, 167);
+    }
+    
+    #titulo{
+        font-family:'Phudu', cursive;
+        font-size:25px;
+        background-color: transparent;
+        background-image: linear-gradient(to top, green , lightgreen); 
+        text-align: center;
+        color: white;
+        font-family: 'Phudu', cursive;
+        font-weight: lighter;
+        border-width: 40px;
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    .paragrafo{
+        font: italic lighter 11px arial;
+        text-align: center;
+        padding-bottom: 14px;
+        
+    }
+    nav{
+        background-color: darkgreen;
+        color: white;
+        margin: auto;
+        text-align: center;
+
+    }
+    a{
+        color: white;
+        text-align: justify;
+        text-decoration: none;
+        font-size: 16px;
+
+    }
+    a:hover{
+        text-decoration: underline;
+        color: darkgray;
+        height: 10px;
+        width: 15px;
+        background-color: lightgreen;
+        border-radius: 2px;
+    }
+    .principal{
+        background-color: white;
+        border-width: 40px;
+        text-align: center;
+       padding: auto;
+        margin:auto; /*margem do elemento main*/
+        max-width: 800px;
+        min-width: 320px;
+        
+    }
+    .conteudo > h1{
+        font:20px;
+        text-align: justify;
+        padding-top: 10px;
+        padding-bottom: 5px;
+
+    }
+    .link{
+        color: darkgreen;
+    }
+    .paragrafo-artigo {
+        text-indent: 30px;
+        text-align: justify;
+    }
+    .titulo-artigo{
+        font-family: 'Press Start 2P', cursive;
+        text-indent: 30px;
+        text-align: justify;
+        font-size: 16px;
+        padding: auto;
+        margin: auto;
+        
+    }
+ .conteudo{
+    padding-left: 5px;
+       padding-right: 5px;
+       text-align: center;
+ }
+ .irina{
+    height: 250px;
+    width: 250px;
+ }
+ .video{
+    
+    height: 340px;
+    width: 540px;
+ }
+ aside{
+    background-color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.362);
+    text-align: center;
+    max-width: 100%; 
+    overflow: hidden;
+    margin: 10px;
+ }
+ section{
+    padding: auto;
+ }
+ iframe{
+    height: 200px;
+    width: 100%;
+    max-width: 800px;
+    min-width: 320px;
+ }
+ .inferior>h2{
+    text-align: left;
+    color: white;
+    font-size: lighter 15px arial;
+    padding: auto;
+    margin-top: 5px;
+ }
+ .lista{
+    background-color: lightgreen;
+    text-align: justify;
+ }
+ .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        
+ }
+ .coluna {
+            width: calc(50% - 20px); /* 50% menos margens entre as colunas */
+            margin-bottom: 20px; /* Espaço entre as linhas */
+        }
+.rodape{
+    margin:0px;
+    background-color: darkgreen;
+    text-align: center;
+    color: white;
+    padding: 0px;
+}
+   </style>
+</head>
+<body>
+    <header id="titulo">CURIOSIDADES E TECNOLOGIAS
+        <p class="paragrafo">tudo aquilo que voce sempre quis saber sobre o mundo <br>Tech, em um so lugar</p>
+    </header>
+<nav><a href="#">home</a> <a href="#">noticias</a> <a href="#">curiosidades</a> <a href="#">fale conosco</a></nav>
+<main class="principal">
+    <section>
+        <article class="conteudo">
+            <h1 class="titulo-artigo">HISTORIA DO MASCOTE DO ANDROID</h1>
+            <p class="paragrafo-artigo">   Provavelmente voce sabe que o sistema operacional <a href="#" class="link">android</a>, mantido pelo <a href="#" class="link">Google</a> é um dos mais utilizados para dispositivos moveis em todo o mundo. Mas talvez voce saiba que o seu simpatico mascote tem um nome e muita historia?Pois acompanhe esse artigo para aprender muito com esse robozinho.</p>
+            <h2 class="titulo-artigo">A PRIMEIRA VERSAO</h2>
+            <p class="paragrafo-artigo" >A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="#" class="link">Dan Morril</a>. Ele conta que abriu o <a href="#" class="link">Inkscape</a>(software livre para vetorização de imagens)ce criou sua propria versão robô. O objetivo era apenas personificar o sistema apenas para sua equipe, nao existia nenhuma solicitação da empresa para criação de um mascote.</p>
+            <picture>   
+                <source media="(max-width: 1000px )" srcset="imagens/dan-droids-pq.png" type="image/png">
+                <img src="imagens/dan-droids.png" alt="android">
+            </picture>
+            <p class="paragrafo-artigo">Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os <a href="#" class="link">Dandroids</a>.</p>
+            <h2 class="titulo-artigo">SURGE UM NOVO MASCOTE</h2>
+            <p class="paragrafo-artigo">A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
+            <picture>
+                <source media="(max-width: 1000px )" srcset="imagens/irina-blok-pq.jpg" type="image/jpg">
+                <img src="imagens/irina-blok.jpg" alt="irina blok" >
+            </picture>
+            <p class="paragrafo-artigo">A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o <a href="#" class="link">Bugdroid</a>, o novo mascote do Android.</p>
+            <picture>
+                <source media="(max-width: 1000px )" srcset="imagens/Bugdroid.png" type="image/png">
+                <img src="imagens/bugdroid.png" alt="bugdroid">
+            </picture>
+            <aside><iframe width="200" height="330" src="https://www.youtube.com/embed/K3fzL60G008?si=LoV5yh5XHvIiYEYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  class="video"></iframe></aside>
+            <aside>
+                <header class="inferior">
+                    <h2>Quer aprender mais? </h2>
+                </header> 
+                <section class="lista">
+                    <p class="paragrafo-artigo">Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
+                    <div class="container">
+                        <div class="coluna">
+                            <ul>
+                                <li>1.5 - Cupcake</li>
+                                <li>1.6 - Donut</li>
+                                <li>3.0 - Eclair</li>
+                                <li>2.2 - Froyo</li>
+                                <li>2.3 - Gingerbread</li>
+                                <li>3.0 - Honeycomb</li>
+                                <li>4.0 - IceCream Sandwich</li>
+                            </ul>
+                        </div>
+                        <div class="coluna">
+                            <ul>
+                                <li>4.1 - Jelly Bean</li>
+                                <li>4.4 - KitKat</li>
+                                <li>5.0 - Lolipop</li>
+                                <li>6.0 - Marshmallow</li>
+                                <li>7.0 - Nougat</li>
+                                <li>8.0 - Oreo</li>
+                                <li>9.0 - Pie</li>
+                            </ul>
+                        </div>
+                        <p class="paragrafo-artigo">Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.
+
+                            Acesse aqui o site Android History para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
+                    </div>
+                   
+                </section>
+           </aside>
+        </article>
+    </section>
+
+</main>
+<footer class="rodape">site criado por <strong>gustavo guanabara</strong> e exercitado por <strong>carlos eduardo</strong></footer>
+
+</body>
+</html>
