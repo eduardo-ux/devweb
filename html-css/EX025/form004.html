@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="off">
+        <fieldset>
+            <legend>dados pessoais</legend>
+            <p><label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" autocomplete="email" required placeholder="email">
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" placeholder="telefone" pattern="^[0-9]{4}-[0-9]{4}$">
+            </p>
+        </fieldset>
+        <!--estudar mais sobre RegEX, expressoes regulares-->
+        <p>
+            <input type="submit" value="enviar">
+            <input type="submit" value="limpar">
+        </p>
+    </form>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>email e telefone</legend>
+            <p>
+                <label for="itele">telefone</label>
+                <input type="tel" name="telefone" id="itele" placeholder="xx-xxxx-xxxx">
+            </p>
+            <p>
+                <label for="iema">email</label>
+                <input type="email" name="eme" id="iema">
+            </p>
+        </fieldset>
+
+
+
+    </form>
+</body>
+</html>
