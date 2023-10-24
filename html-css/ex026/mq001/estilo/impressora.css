@@ -1,0 +1,11 @@
+@charset "UTF-8";
+*{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+}
+menu{
+    display: none;
+}
+article::after{
+    content: 'esse artigo n deveria ser impressokkk';
+}
