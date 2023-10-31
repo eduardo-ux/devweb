@@ -1,2 +1,7 @@
 @charset "UTF-8";
 /* PARA TODOS APARELHOS */
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
