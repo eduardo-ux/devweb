@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*  declarações gerais */
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
+    /*declarações retrato*/
+    @media screen and (orientation:portrait) {
+    body{
+    background-image: url(../img/cev-portrait.jpg);
+    background-position: bottom center;
+    }
+    }
+    /*declarações paisagem*/
+    @media screen and (orientation:landscape) {
+    body{
+        background-image: url(../img/cev-landscape.jpg);
+        background-position: left bottom;
+    
+       }
+    }
