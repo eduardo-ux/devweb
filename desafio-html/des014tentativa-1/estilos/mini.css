@@ -1,0 +1,66 @@
+@media  screen and (max-width:1200px) {
+    body{
+        background-image: linear-gradient(#5F2C82,#2c2f82);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 97vh;
+    }
+   
+    div input{
+        width: 280px;
+        margin: 2px;
+        padding:10px ;
+        border-radius: 10px;
+        border: none;
+        background-color: lightblue;
+    }
+    h1{
+        margin:0;
+        padding: 10px;
+    }
+    
+    main{
+        width: 550px;
+        height: 350px;
+        border-radius: 15px;
+        background-image: url(../img/pexels-paul-loh-233698.jpg);
+    }
+    article{
+        width: 310px;
+        height:350px;
+        background-color: white;
+        border-radius:15px ;
+    }
+    input#entrar{
+        background-color:#6cd3cf;
+        width: 280px;
+        padding: 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        color: white;
+    }
+    input#senha-esq{
+        width: 280px;
+        margin: 10px;
+        padding: 10px;
+        background-color: white;
+        color: gray;
+        border: 1px solid #6cd3cf;
+        border-radius: 10px;
+    }
+    input#entrar:hover{
+        background-color: #366967;
+
+        transition: 0.7s;
+    }
+
+
+    input#senha-esq:hover{
+        background-color: #6cd3cf ;
+        color: white;
+        transition: 0.7s;
+
+    }
+
+}
