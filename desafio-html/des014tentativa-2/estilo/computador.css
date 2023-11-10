@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        color: white;
+        text-align: center;
+        padding-bottom: 10px;
+        margin-top: 50px;
+       
+    }
+    p{
+        color: white;
+        text-align: center;
+        padding-bottom: 10px;
+        
+    }
+   
+    main{
+        max-width: 600px;
+        height: 500px;
+    }
+    article{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        margin-top: 40px;
+    }
+    .material-symbols-outlined {
+        color: white;
+        height: 40px;
+     }
+    .cartao{
+        height: 50px;
+        width: 260px;
+        background-color: rgba(0, 0, 0, 0.501);
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        border: 1px solid white;
+        margin-bottom:10px;
+        margin-left: 20px;
+    }
+    #iemail{
+        height: 30px;
+        margin-bottom: 10px;
+        margin-left:10px;
+        margin-right: 10px;
+        width: 200px;
+    }
+    #isenha{
+       height: 30px;
+       margin-bottom: 10px;
+       margin-right: 10px;
+       width: 200px;
+    }
+    #logar{
+        width: 260px;
+        height: 40px;
+    }
+    #pass{
+        width: 260px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    #botoes{
+        margin-left:20px ;
+    }
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
